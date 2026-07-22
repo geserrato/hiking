@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    let hikes = [
+        Hike(name: "Salmonberry Trail", photo: "sal", miles: 6),
+        Hike(name: "Tom Dick, and Harry Mountain", photo: "tom", miles: 5.8),
+        Hike(name: "Tamanawas Falls", photo: "tam", miles: 5)
+    ]
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
